@@ -5,10 +5,10 @@ import { DATA } from "@/data/resume";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
 
 export default function HackathonsSection() {
-  // Safe fallback (prevents crash if hackathons is missing)
-  const hackathons = DATA?.hackathons ?? [];
+  // 👇 Type-safe bypass (important)
+  const hackathons = (DATA as any).hackathons ?? [];
 
-  // If no hackathons → don't render section at all
+  // If no hackathons → don't render
   if (hackathons.length === 0) return null;
 
   return (
@@ -32,16 +32,13 @@ export default function HackathonsSection() {
 
             <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance text-center">
               During my time in university, I attended {hackathons.length}+
-              hackathons. People from around the country would come together and
-              build incredible things in 2-3 days. It was eye-opening to see the
-              endless possibilities brought to life by a group of motivated and
-              passionate individuals.
+              hackathons.
             </p>
           </div>
         </div>
 
         <Timeline>
-          {hackathons.map((hackathon) => (
+          {hackathons.map((hackathon: any) => (
             <TimelineItem
               key={hackathon.title + hackathon.dates}
               className="w-full flex items-start justify-between gap-10"
@@ -85,7 +82,7 @@ export default function HackathonsSection() {
 
                 {hackathon.links && hackathon.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
-                    {hackathon.links.map((link, idx) => (
+                    {hackathon.links.map((link: any, idx: number) => (
                       <Link
                         href={link.href}
                         key={idx}
