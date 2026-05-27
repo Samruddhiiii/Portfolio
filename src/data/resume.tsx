@@ -74,8 +74,9 @@ export const DATA = {
 
   work: [
     {
-      company: "Sysgenpro",
-      href: "https://sysgenpro.com/",
+      {
+      company: "Coding Club India",
+      href: "https://hiring.codingclub.tech/",
       badges: [],
       location: "Remote",
       title: "Software Engineer Intern",
@@ -85,6 +86,16 @@ export const DATA = {
       description:
         "Developed clean, efficient code across multiple modules reducing bugs by 15-20%, collaborated with senior developers on 3+ production releases, and improved issue resolution speed by 30% through systematic troubleshooting and industry best practices.",
     },
+      company: "Sysgenpro",
+      href: "https://sysgenpro.com/",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer Intern",
+      logoUrl: "/codingclub.jpeg",
+      start: "Jan 2026",
+      end: "Current",
+      description:
+        " Engineered responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap ensuring cross-device compatibility.Developed Spring Boot RESTful APIsusing Microservices Architecture handling services processing 10K+ requests/day."    },
     {
       company: "JavaTpoint",
       badges: [],
