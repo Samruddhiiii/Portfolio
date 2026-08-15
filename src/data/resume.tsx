@@ -50,7 +50,7 @@ export const DATA = {
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/gulhane-samruddhi/",
+        url: "https://linkedin.com/in/samruddhi-gulhane",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -74,9 +74,8 @@ export const DATA = {
 
   work: [
     {
-      {
-      company: "Coding Club India",
-      href: "https://hiring.codingclub.tech/",
+      company: "Sysgenpro",
+      href: "https://sysgenpro.com/",
       badges: [],
       location: "Remote",
       title: "Software Engineer Intern",
@@ -86,16 +85,6 @@ export const DATA = {
       description:
         "Developed clean, efficient code across multiple modules reducing bugs by 15-20%, collaborated with senior developers on 3+ production releases, and improved issue resolution speed by 30% through systematic troubleshooting and industry best practices.",
     },
-      company: "Sysgenpro",
-      href: "https://sysgenpro.com/",
-      badges: [],
-      location: "Remote",
-      title: "Software Engineer Intern",
-      logoUrl: "/codingclub.jpeg",
-      start: "Jan 2026",
-      end: "Current",
-      description:
-        " Engineered responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap ensuring cross-device compatibility.Developed Spring Boot RESTful APIsusing Microservices Architecture handling services processing 10K+ requests/day."    },
     {
       company: "JavaTpoint",
       badges: [],
