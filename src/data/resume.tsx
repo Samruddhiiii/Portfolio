@@ -22,7 +22,7 @@ export const DATA = {
     "Software Engineer. I love building things.",
   summary:
     "I'm Samruddhi Gulhane, a Fullstack Developer pursuing B.Tech in Computer Science at Government College of Engineering, Yavatmal. I love building **real, production-ready products** that solve actual problems. I've **interned at a startup**, competed in **national-level hackathons** as a finalist, and I'm currently deep into **TypeScript, Next.js, and AI integrations**. I thrive around **driven, execution-focused people** the ones who move fast and care deeply about what they are building.",
-  avatarUrl: "/aron.png",
+  // avatarUrl: "/aron.png",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
